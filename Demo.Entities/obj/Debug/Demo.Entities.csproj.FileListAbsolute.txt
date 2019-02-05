@@ -1,0 +1,5 @@
+c:\users\venpati\documents\visual studio 2015\Projects\DemoMvcApplication\Demo.Entities\bin\Debug\Demo.Entities.dll
+c:\users\venpati\documents\visual studio 2015\Projects\DemoMvcApplication\Demo.Entities\bin\Debug\Demo.Entities.pdb
+c:\users\venpati\documents\visual studio 2015\Projects\DemoMvcApplication\Demo.Entities\obj\Debug\Demo.Entities.csprojResolveAssemblyReference.cache
+c:\users\venpati\documents\visual studio 2015\Projects\DemoMvcApplication\Demo.Entities\obj\Debug\Demo.Entities.dll
+c:\users\venpati\documents\visual studio 2015\Projects\DemoMvcApplication\Demo.Entities\obj\Debug\Demo.Entities.pdb
