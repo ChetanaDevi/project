@@ -1,28 +1,84 @@
-﻿@model IEnumerable<DemoMvcApplication.Models.PatientViewModel>
+﻿@model DemoMvcApplication.Models.PatientViewModel
 
 @{
     ViewBag.Title = "Index";
 }
 
-@Html.ActionLink("Logout","Logout","User")
 
-<h2>Patients</h2>
+@Html.ActionLink("Logout", "Logout", "User")
 
 
-<table class="table">
-    <tr>
-        <th>
-            @Html.DisplayNameFor(model => model.Name)
-        </th>
-        <th></th>
-    </tr>
 
-@foreach (var item in Model) {
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.Name)
-        </td>
-    </tr>
-}
+<h2>Dashboard</h2>
+<div class="row">
+    <div class="col-md-4">
+        <table class="table table-condensed">
+            <thead style="background-color:#3cb8cf">
+                <tr>
+                    <td>
+                        Patient List
+                    </td>
+                    <td></td>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.Patients)
+                {
+                    <tr>
+                        <td class="">
+                            @Html.ActionLink(item.PatientName, "Detail", new { id = item.PatientID })
+                        </td>
+                        <td>
+                            @item.Age years
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+    <div class="col-md-8">
+        @if (Model.SelectedPatient != null)
+        {
+            <div class="row" style="background-color:#3cb8cf">
+                <div class="col-md-2">
+                    <label>Name</label>
+                </div>
+                <div class="col-md-2">
+                    <label>Age</label>
+                </div>
+                <div class="col-md-4">
+                    <label>Address</label>
+                </div>
+                <div class="col-md-2">
+                    <label>Doctor</label>
+                </div>
+                <div class="col-md-2">
+                    <label>Is Normal</label>
+                </div>
+            </div>
 
-</table>
+            <div class="row">
+                <div class="col-md-2">
+                    <label>@Model.SelectedPatient.PatientName</label>
+                </div>
+                <div class="col-md-2">
+                    <label>@Model.SelectedPatient.Age</label>
+                </div>
+                <div class="col-md-4">
+                    <label>@Model.SelectedPatient.Address</label>
+                </div>
+                <div class="col-md-2">
+                    <label>@Model.SelectedPatient.Doctor</label>
+                </div>
+                <div class="col-md-2">
+                    <label>@Model.SelectedPatient.Isnormal</label>
+                </div>
+            </div>
+
+        }
+        <div class="row">
+            
+        </div>
+    </div>
+</div>
+

@@ -5,3 +5,12 @@ c:\users\venpati\documents\visual studio 2015\Projects\DemoMvcApplication\Demo.D
 c:\users\venpati\documents\visual studio 2015\Projects\DemoMvcApplication\Demo.DataAccess\bin\Debug\Demo.Entities.pdb
 c:\users\venpati\documents\visual studio 2015\Projects\DemoMvcApplication\Demo.DataAccess\obj\Debug\Demo.DataAccess.dll
 c:\users\venpati\documents\visual studio 2015\Projects\DemoMvcApplication\Demo.DataAccess\obj\Debug\Demo.DataAccess.pdb
+C:\HospitalProjectOld\Amit-project\Demo.DataAccess\bin\Debug\Demo.DataAccess.dll
+C:\HospitalProjectOld\Amit-project\Demo.DataAccess\bin\Debug\Demo.DataAccess.pdb
+C:\HospitalProjectOld\Amit-project\Demo.DataAccess\bin\Debug\Demo.Entities.dll
+C:\HospitalProjectOld\Amit-project\Demo.DataAccess\bin\Debug\Demo.Entities.pdb
+C:\HospitalProjectOld\Amit-project\Demo.DataAccess\obj\Debug\Demo.DataAccess.csprojAssemblyReference.cache
+C:\HospitalProjectOld\Amit-project\Demo.DataAccess\obj\Debug\Demo.DataAccess.csproj.CoreCompileInputs.cache
+C:\HospitalProjectOld\Amit-project\Demo.DataAccess\obj\Debug\Demo.DataAccess.csproj.CopyComplete
+C:\HospitalProjectOld\Amit-project\Demo.DataAccess\obj\Debug\Demo.DataAccess.dll
+C:\HospitalProjectOld\Amit-project\Demo.DataAccess\obj\Debug\Demo.DataAccess.pdb

@@ -8,9 +8,8 @@ namespace DemoMvcApplication.Models
 {
     public class PatientViewModel
     {
-        [Display(Name = "Patient Number")]
-        public int Id { get; set; }
-        [Display(Name="Patient Name")]
-        public string Name { get; set; }
+        public List<PatientDetails> Patients { get; set; }
+        public PatientDetails SelectedPatient { get; set; }
+
     }
 }
